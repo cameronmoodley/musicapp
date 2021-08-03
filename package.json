@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "client": "npm start --prefix client",
+    "test": "npm test --prefix client",
     "server": "nodemon app.js",
     "start": "concurrently \"npm run server\" \"npm run client"
   },
